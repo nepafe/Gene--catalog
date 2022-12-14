@@ -1,0 +1,39 @@
+
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
+ <title>CatalegWeb</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>CATÀLEG DE GENS</h1>
+ <p>
+  <tr>
+  <th>
+  <h3>
+  EXPLORAR UN GENOMA
+  </h3>
+  </th>
+  <tr>
+<form id="form1"  name="form1" method="post" action="exercici.php">
+  <h4>Selecciona l'organisme:</h4>
+  <p>
+    </select>
+    <select name="taula" >
+      <option value="Huma">H. sapiens </option>
+      <option value="Cavall">E. caballus </option>
+      <option value="Mosca">D. melanogaster </option>
+      <option value="Peix">Zebrafish </option>
+    </select>
+  </p> 
+  <h4>Introdueix el nom del <b>gen</b>:</h4>
+  <p>
+    <input type="text" name="NomDelGen" id="NomDelGen" />
+    <input type="submit" name="consulta"id="consulta" value="Consulta" />
+  </p>
+  <p class=footer>
+   Web server designed and implemented by Neus Paredes (2021)
+  </p>
+</form>
+</body>
+</html>
